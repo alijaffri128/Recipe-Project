@@ -1,6 +1,6 @@
 import React from "react";
 import Logo from "../assets/Images/Logo.png";
-import { SearchIcon } from "./SearchSvg";
+import { SearchIcon } from "./Svg";
 
 function SearchBar() {
   return (
@@ -27,7 +27,7 @@ function SearchBar() {
             className="flex-1 px-4 py-2 bg-transparent focus:outline-none text-sm"
           />
           <div className="h-full px-3 rounded-full flex items-center justify-center bg-[#D9D9D9] transition-colors">
-            <SearchIcon />
+            <SearchIcon/>
           </div>
         </div>
       </div>

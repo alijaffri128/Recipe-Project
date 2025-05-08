@@ -1,7 +1,9 @@
 import React from "react";
-import { ProfileIcon } from "./LoginSvg";
-import { RegisterIcon } from "./RegisterSvg";
 
+// import { ProfileIcon,RegisterIcon } from "./Svg";
+import { ProfileIcon } from "./Svg";
+import { RegisterIcon } from "./Svg";
+// import { ProfileIcon,RegisterIcon} from "./Svg" 
 const Header = () => {
   return (
     <header className="bg-black">
